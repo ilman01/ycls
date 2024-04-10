@@ -35,7 +35,7 @@ This function calculates the loudness level of the input audio (or video) file i
   - `input_file` (str): The path to the input audio (or video) file.
 
 - **Returns:**
-  - `lufs` (float): The loudness level of the input audio (or video) file in LUFS.
+  - The loudness level of the input audio (or video) file in LUFS.
 
 ### `calculate_youtube_content_loudness(input_file)`
 
@@ -45,7 +45,7 @@ This function calculates the adjusted loudness suitable for YouTube content base
   - `input_file` (str): The path to the input audio (or video) file.
 
 - **Returns:**
-  - `youtube_content_loudness` (float): The adjusted loudness suitable for YouTube content in dB.
+  - The adjusted loudness suitable for YouTube content in dB.
 
 ### `calculate_peak_dbfs(input_file)`
 
@@ -55,7 +55,7 @@ This function calculates the peak loudness in dBFS (decibels relative to full sc
   - `input_file` (str): The path to the input audio (or video) file.
 
 - **Returns:**
-  - `peak` (float): The peak loudness of the input audio (or video) file in dBFS.
+  - The peak loudness of the input audio (or video) file in dBFS.
 
 ## Running the Module via CLI
 
