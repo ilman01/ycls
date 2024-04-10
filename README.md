@@ -71,7 +71,7 @@ ycls -i example_audio.mp3
 This will print the loudness metrics of the audio file to the console.
 ```
 File Loudness: -23.6 LUFS
-Peak Loudness: -2.3 dbFS
+Peak Loudness: -2.3 dBFS
 Youtube Content Loudness: -9.6 dB
 ```
 

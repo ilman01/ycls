@@ -21,7 +21,7 @@ def main(input_file: str = typer.Option(None, "-i", help="Input file path.")):
     youtube_content_loudness = calculate_youtube_content_loudness(input_file)
 
     print(f"File Loudness: {lufs} LUFS")
-    print(f"Peak Loudness: {peak} dbFS")
+    print(f"Peak Loudness: {peak} dBFS")
     print(f"Youtube Content Loudness: {youtube_content_loudness} dB")
 
 
