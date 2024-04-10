@@ -30,5 +30,3 @@ def main(input_file: str = typer.Option(None, "-i", help="Input file path.")):
 
 def run_cli():
     typer.run(main)
-
-run_cli()
