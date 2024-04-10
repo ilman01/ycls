@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     entry_points={
         'console_scripts': [
-            'ycls=ycls:main',
+            'ycls=ycls:run_cli',
         ],
     },
 )

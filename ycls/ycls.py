@@ -11,7 +11,7 @@ def calculate_peak_dbfs(input_file):
     return round(r128gain.scale_to_gain(r128gain.get_r128_loudness([input_file])[1]), 1)
 
 
-def main2(input_file: str = typer.Option(None, "-i", help="Input file path.")):
+def main(input_file: str = typer.Option(None, "-i", help="Input file path.")):
     if not input_file:
         print("Please enter input file, --help to view commands.")
         return
@@ -25,5 +25,5 @@ def main2(input_file: str = typer.Option(None, "-i", help="Input file path.")):
     print(f"Youtube Content Loudness: {youtube_content_loudness} dB")
 
 
-def main():
-    typer.run(main2)
+def run_cli():
+    typer.run(main)
