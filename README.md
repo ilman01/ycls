@@ -10,6 +10,13 @@ You can install the `ycls` module using pip:
 pip install ycls
 ```
 
+Make sure you have `ffmpeg` installed on your system.
+
+**For Windows:**
+```bash
+winget install Gyan.FFmpeg.Essentials
+```
+
 ## Usage
 
 You can import functions from the `ycls` module using the following syntax:
@@ -80,3 +87,4 @@ Youtube Content Loudness: -9.6 dB
 - Python 3.6+
 - r128gain library
 - typer library
+- ffmpeg
