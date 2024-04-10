@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="ycls",
-    version="1.0.0",
+    version="1.0.1",
     description="YCLS is a Python module for calculating loudness metrics for audio files, particularly aimed at determining the loudness level suitable for YouTube content.",
     packages=find_packages(),
     install_requires=requirements,
